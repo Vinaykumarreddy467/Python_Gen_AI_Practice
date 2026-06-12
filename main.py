@@ -3,8 +3,6 @@ from dotenv import load_dotenv
   
 load_dotenv()
 
-
-
 huggingface=os.getenv("HUGGINGFACE_API_KEY")
 
 def main():
