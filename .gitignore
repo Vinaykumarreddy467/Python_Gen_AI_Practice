@@ -21,6 +21,15 @@ chroma_db/
 my_chroma_db/
 My_chromaDB/
 hybrid_search_db/
+My_Items/
+
+# Logs and temp files
+*.log
+chat_history.txt
+autopush-test
+
+# Auto-push watcher
+.git-autopush.log
 
 # Other
 *.layout
