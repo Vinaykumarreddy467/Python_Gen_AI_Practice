@@ -1,3 +1,27 @@
 # Environment variables
 .env
 .env.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+
+# Databases
+*.db
+
+# Chroma DB
+chroma_db/
+my_chroma_db/
+My_chromaDB/
+hybrid_search_db/
+
+# Other
+*.layout
+vinay/
