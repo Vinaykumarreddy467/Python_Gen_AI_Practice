@@ -13,7 +13,7 @@ async def read_items():
     return items
 
 @app.get("/items/{item_id}")
-async def read_item(item_id: int, q: str = None):
+async def read_item(item_id: str, q: str = None):
     if item_id in items:
         return {"item_id": item_id, "q": q, "item_name": items[item_id]}
     return {"error": "Item not found"}
